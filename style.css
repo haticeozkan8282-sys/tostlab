@@ -1,0 +1,122 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #0b0b0b;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.ust-alan {
+    padding: 25px 8%;
+    border-bottom: 1px solid #292929;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+    .logo span {
+        color: #e63936;
+    }
+
+.ust-alan p {
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+.icerik {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.hosgeldin {
+    padding: 65px 0;
+}
+
+.etiket {
+    color: #e63936;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: clamp(42px, 7vw, 72px);
+    margin: 15px 0;
+}
+
+.hosgeldin > p:not(.etiket) {
+    color: #bbb;
+    font-size: 18px;
+}
+
+.buton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 24px;
+    background: #e63936;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.urunler {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.urun {
+    padding: 25px;
+    background: #171717;
+    border: 1px solid #303030;
+    border-radius: 14px;
+}
+
+.emoji {
+    font-size: 45px;
+}
+
+.urun h3 {
+    font-size: 22px;
+}
+
+.urun p {
+    color: #aaa;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 70px;
+    padding: 25px;
+    text-align: center;
+    color: #888;
+    border-top: 1px solid #292929;
+}
+
+.buton:hover {
+    background: #c92d2a;
+}
+
+@media (max-width: 600px) {
+
+    .hosgeldin {
+        padding: 45px 0;
+    }
+}
